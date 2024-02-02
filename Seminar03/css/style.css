@@ -1,0 +1,80 @@
+a{
+    text-decoration: none;
+}
+.menu{
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 21px;
+}
+.menu:hover{
+    color:red;
+}
+.title{
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.paragraph{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+.subtitle{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+li::marker{
+    content: '🦆';
+    font-size: 1.2em;
+}
+.image{
+    border-radius: 50%;
+.	width: 350px;
+}
+.image:hover{
+    transform: scale(1.1);
+    box-shadow: 20px 20px 5px 10px rgba(0, 0, 0, 0.7);
+    transition: transform 700ms, box-shadow 700ms;
+}
+.input{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+p::selection{
+    color: red;
+    background-color: yellow;
+}
+p::first-letter{
+    font-size: 36px;
+    color: darkmagenta;
+    font-weight: 600;
+}
+p::first-line{
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
